@@ -1,0 +1,67 @@
+body{
+  background: rgb(245,245,245);
+  color: #c72c41;
+  font-size: 30px;
+  font-family: Ranga;
+  margin: 0px;
+}
+h1{
+  font-family: Ranga;
+  color: #ee4540;
+  font-weight: lighter;
+  font-size: 50px;
+}
+h2 {
+  font-family: Ranga;
+  color: #801336;
+  font-weight: lighter;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: #801336;
+}
+a:hover {
+  text-decoration: none;
+  color: #801336;
+}
+
+/*Custom Design
+*/
+
+#banner {
+  background-image: url("https://source.unsplash.com/3Xj6BntfsIU");
+  background-size: cover;
+  padding: 150px 0px;
+  text-align: center;
+  color: #2d132c;
+}
+
+#banner h1 {
+  color: #2d132c;
+  font-size: 50px
+  text-shadow: 0.3px 0.3px 0.3px grey;
+}
+
+#banner p {
+  font-size: 30px
+  font-weight:lighter;
+}
+
+.section {
+  padding: 50px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+#footer {
+  background:#71a0a5;
+  color:lightgrey;
+  font-size: 20px;
+  padding: 50px;
+}
+.fab {
+  color:black;
+  font-size:35px;
+
+}
