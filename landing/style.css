@@ -39,19 +39,82 @@ a:hover {
 
 #banner h1 {
   color: #2d132c;
-  font-size: 50px
+  font-size: 50px;
   text-shadow: 0.3px 0.3px 0.3px grey;
 }
 
 #banner p {
-  font-size: 30px
-  font-weight:lighter;
+  font-size: 30px;
+  font-weight: lighter;
 }
 
 .section {
   padding: 50px;
   text-align: center;
   font-weight: lighter;
+  transition: transform 2s;
+}
+
+.section:hover {
+  transform: scale(1.2); 
+}
+
+#banner2 {
+  background-image: url("images/happy_coding.jpg");
+  background-size: cover;
+  padding: 150px 0px;
+  text-align: center;
+  color: #2d132c;
+  background-position: center;
+  clear: both;
+}
+
+#banner2 h2 {
+  color: white;
+  font-size: 50px;
+  text-shadow: 5px 5px 5px black;
+  text-decoration: underline;
+  padding-left: 50px;
+
+}
+
+.left {
+  color: darkred;
+  font-size: 30px;
+  font-weight: lighter;
+  width: 250px;
+  padding-left: 20px;
+  background: #d3d3d3c2;
+  border-radius: 25px;
+  margin-left: 20px;
+}
+
+#banner2 h3 {
+  color: white;
+  font-size: 50px;
+  text-shadow: 5px 5px 5px black;
+  text-decoration: underline;
+  padding-right: 50px;
+}
+
+
+.right {
+  color: darkred;
+  font-size: 30px;
+  font-weight: lighter;
+  width: 250px;
+  padding-left: 20px;
+  background: #d3d3d3c2;
+  border-radius: 25px;
+  margin-right: 20px;
+}
+
+.position1 {
+float: left;
+}
+
+.position2 {
+  float: right;
 }
 
 #footer {
